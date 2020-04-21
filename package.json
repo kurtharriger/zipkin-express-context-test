@@ -4,8 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Kurt Harriger",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "zipkin": "^0.21.0",
+    "zipkin-context-cls": "^0.19.2-alpha.7",
+    "zipkin-instrumentation-express": "^0.21.0"
+  },
+  "jest": {
+    "testMatch": [
+      "**/test/*-test.js"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^25.4.0",
+    "supertest": "^4.0.2"
+  }
 }

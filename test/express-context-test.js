@@ -15,7 +15,7 @@ describe('trace context', () => {
         eventEmitter = new EventEmitter();
 
         app = express();
-        ctxImpl = new CLSContext('zipkin', false);
+        ctxImpl = new CLSContext('zipkin', true);
         const recorder = { record() {} };
         tracer = new Tracer({ ctxImpl, recorder });
 

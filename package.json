@@ -9,7 +9,7 @@
   "author": "Kurt Harriger",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "zipkin": "^0.21.0",
     "zipkin-context-cls": "^0.19.2-alpha.7",
     "zipkin-instrumentation-express": "^0.21.0"
